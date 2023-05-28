@@ -23,7 +23,7 @@ with open(f"./{plugin_name}/manifest.json", "r") as f:
 with open(f"./{plugin_name}/manifest.json", "w") as f:
     json.dump(manifest, f, indent=2)
 
-paths = ["src/index.tsx", "src/components/Settings.tsx"]
+paths = ["src/index.tsx", "src/components/Settings.tsx", "README.md"]
 for path in paths:
     text: str
     with open(f"./{plugin_name}/{path}", "r") as f:
