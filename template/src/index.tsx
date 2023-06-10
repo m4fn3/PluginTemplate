@@ -14,8 +14,7 @@ const PLUGIN_NAME: Plugin = {
     },
     onStop() {
         Patcher.unpatchAll()
-    }
-    ,
+    },
     getSettingsPanel({settings}) {
         return <Settings settings={settings}/>
     }
